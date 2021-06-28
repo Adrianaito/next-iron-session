@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "npx next build",
-    "dev": "npx next dev",
+    "dev": "next -p 8090" ,
     "start": "npx next start"
   },
   "eslintConfig": {
@@ -52,6 +52,7 @@
     "prop-types": "15.7.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "swr": "0.5.6"
+    "swr": "0.5.6",
+    "typescript": "^4.3.4"
   }
 }
